@@ -20,7 +20,7 @@
 <script lang="ts"  setup>
 import { ElMessage } from 'element-plus'
 import {useRouter} from 'vue-router'
-import {onBeforeMount, reactive, ref} from 'vue';
+import {onBeforeMount, reactive} from 'vue';
 import {submitForm} from "../api/login"
     const form = reactive({
       username:"",
